@@ -34,4 +34,4 @@ worker.log
 run/*.pid
 run/write_test
 
-.oauth_token
+.oauth_credentials

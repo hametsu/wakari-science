@@ -7,6 +7,8 @@ setup:
 auth:
 	./bin/python auth.py
 
+lint:
+	./bin/flake8 *.py
 
 publish_web:
 	gsutil cp ./web/*.* gs://arakawatomonori-wakari-web/
